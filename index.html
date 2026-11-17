@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Jeanette McIntosh, Realtor Associate® with Complete Realty Solutions Ltd. in Kingston, Jamaica. Call, email, view active listings, and save her contact.">
+    <meta name="theme-color" content="#2a1052">
+    <meta property="og:title" content="Jeanette McIntosh — Realtor Associate®, Kingston, Jamaica">
+    <meta property="og:description" content="Complete Realty Solutions Ltd. Call, WhatsApp, email, view the active listing, and save her contact.">
+    <meta property="og:type" content="website">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%235e2b97'/%3E%3Ctext x='32' y='42' font-family='Arial' font-size='24' font-weight='bold' fill='white' text-anchor='middle'%3EJM%3C/text%3E%3C/svg%3E">
+    <link rel="stylesheet" href="style.css">
+    <title>Jeanette McIntosh — Realtor Associate®, Complete Realty Solutions Ltd.</title>
+</head>
+
+<body class="lt-page">
+
+    <main class="lt-wrap">
+        <button class="lt-share" id="ltShare" aria-label="Share this page">⤴ Share</button>
+
+        <div class="lt-profile">
+            <span class="lt-status"><span class="lt-dot"></span>Accepting new clients</span>
+            <h1 class="lt-name">Jeanette McIntosh</h1>
+            <p class="lt-title">Realtor Associate<sup>®</sup> · S-4576</p>
+            <p class="lt-bio">Complete Realty Solutions Ltd. · Kingston, Jamaica 🇯🇲<br>
+                Sales · Rentals · Leases · Auctions · Property Management</p>
+        </div>
+
+        <nav class="lt-links">
+            <p class="lt-group">Get in touch</p>
+            <div class="lt-rows">
+                <p>📞 <a href="tel:+18768458752">876-845-8752</a></p>
+                <p>💬 <a href="https://wa.me/18768458752" target="_blank" rel="noopener">WhatsApp Jeanette</a></p>
+                <p>✉️ <a href="mailto:Jeanette@crsja.net">Jeanette@crsja.net</a></p>
+                <p>📸 Instagram: <a href="https://www.instagram.com/realtor.jeanette/" target="_blank" rel="noopener">@realtor.jeanette</a></p>
+                <p>🏢 Office: <a href="tel:+18769689181">(876) 968-9181</a> · <a href="https://crsja.com" target="_blank" rel="noopener">crsja.com</a></p>
+                <p>📍 Shop #10 Consumer Plaza, 103 Constant Spring Rd., Kingston 10</p>
+                <p>💾 <a href="jeanette-mcintosh.vcf">Save my contact</a></p>
+            </div>
+
+            <p class="lt-group">Featured listing</p>
+            <a class="lt-link lt-link-feature" target="_blank" rel="noopener"
+                href="https://jamaica.xposureapp.com/portal/jamaica/InteractiveLink?u=1373638&l=107130&t=mls&h=Y2qtvHSk5GzNWK7d0Ebh97%2FAjUU%3D&pl=true">
+                <span class="lt-icon">🏡</span>
+                <span class="lt-link-text">5-36E Border Avenue<small>Kingston 19 · 1 bed / 1 bath · MLS# 107130</small></span>
+                <span class="lt-price-pill">$30.5M JMD</span>
+            </a>
+        </nav>
+
+        <p class="lt-footer">Jeanette McIntosh · Realtor Associate<sup>®</sup> S-4576<br>
+            Complete Realty Solutions Ltd. · Kingston, Jamaica</p>
+    </main>
+
+    <script>
+        document.getElementById('ltShare').addEventListener('click', function () {
+            var data = { title: document.title, text: 'Jeanette McIntosh — Realtor Associate®, Complete Realty Solutions Ltd., Kingston, Jamaica', url: window.location.href };
+            if (navigator.share) { navigator.share(data); }
+            else if (navigator.clipboard) {
+                navigator.clipboard.writeText(window.location.href);
+                this.textContent = '✓ Link copied';
+                var btn = this;
+                setTimeout(function () { btn.textContent = '⤴ Share'; }, 2000);
+            }
+        });
+    </script>
+</body>
+
+</html>
